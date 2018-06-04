@@ -6,9 +6,9 @@ WORKDIR /var/www/html
 
 COPY . /var/www/html
 
-RUN apt-get update \
-    && apt-get install -y nodejs \
-    && apt-get install -y npm
+RUN apt-get update
+RUN apt-get install -y nodejs 
+RUN apt-get install -y npm
 
 EXPOSE 8080
 
