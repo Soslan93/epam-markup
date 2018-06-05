@@ -12,4 +12,4 @@ RUN apt-get install -y npm
 
 EXPOSE 8080
 
-CMD ["service", "nginx", "start"]
+CMD ["nginx", "-g", "daemon off;"]

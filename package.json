@@ -2,7 +2,7 @@
   "name": "epam-markup",
   "version": "1.0.0",
   "description": "epam-markup",
-  "main": "app.js",
+  "main": "server.js",
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
