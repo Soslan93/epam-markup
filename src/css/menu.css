@@ -1,0 +1,21 @@
+/*
+aside menu
+*/
+.menu{
+    color: #757575;
+    margin-left: 8%;
+    background-color: #fff;
+    text-align: center;
+    width: 16%;
+}
+.menu__logo{
+    margin: 115px 0 120px 0;
+}
+.menu__nav{
+    float: inherit;
+    display: grid;
+}
+.menu__link{
+    text-decoration: none;
+    color: #787878;
+}

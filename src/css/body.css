@@ -1,0 +1,13 @@
+/*
+body color
+*/
+.wrapper{
+    display: flex;
+    background-color: #f1f1f1;
+}
+/*основной контент*/
+.content{
+    margin-right: 8%;
+    width: 68%;
+}
+
