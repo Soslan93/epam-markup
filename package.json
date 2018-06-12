@@ -5,7 +5,8 @@
   "main": "server.js",
   "dependencies": {
     "react": "^16.4.0",
-    "react-dom": "^16.4.0"
+    "react-dom": "^16.4.0",
+    "node-static": "^0.7.10"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -24,7 +25,8 @@
   "scripts": {
     "build": "webpack --mode production",
     "watch": "webpack --watch --mode production",
-    "dev": "webpack-dev-server --mode production --open"
+    "dev": "webpack-dev-server --mode production --open",
+    "start": "webpack --mode production && node server.js"
   },
   "repository": {
     "type": "git",

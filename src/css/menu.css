@@ -1,17 +1,18 @@
 /*
 aside menu
 */
-.menu{
+.asaid{
     color: #757575;
     margin-left: 8%;
     background-color: #fff;
     text-align: center;
     width: 16%;
 }
-.menu__logo{
+.logo{
     margin: 115px 0 120px 0;
+    font-size: 24px;
 }
-.menu__nav{
+.menu{
     float: inherit;
     display: grid;
 }
