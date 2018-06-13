@@ -2,8 +2,8 @@ import sum from './additional';
 
 console.log(sum('Hello'));
 
-import './css/body.css';
-import './css/menu.css';
-import './css/portfolio.css';
-import './css/main.css';
-import './css/footer.css';
+import './scss/body.scss';
+import './scss/menu.scss';
+import './scss/portfolio.scss';
+import './scss/main.scss';
+import './scss/footer.scss';
