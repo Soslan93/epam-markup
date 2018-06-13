@@ -8,7 +8,7 @@
         height: 32%;
         @for $i from 1 to 10 {
             &--#{$i}{
-                border: 2px solid #245#{$i};
+                content: url(../img/#{$i}.jpg);
             }
         }
     }
